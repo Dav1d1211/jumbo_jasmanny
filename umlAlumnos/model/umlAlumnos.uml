@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yY-CIRXqEe6SZ41pYdSNNw" name="umlAlumnos">
+  <packagedElement xmi:type="uml:Package" xmi:id="_0VvQ0BXqEe6SZ41pYdSNNw" name="Utilitario"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_45TioBXqEe6SZ41pYdSNNw" name="Integer"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9EJLYBXqEe6SZ41pYdSNNw" name="void()"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_DSu0kBXrEe6SZ41pYdSNNw" name="Scanner"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Dm01QBXrEe6SZ41pYdSNNw" name="String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_I2mFwBXrEe6SZ41pYdSNNw" name="ArrayList&lt;Integer>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_QQ2Q0BXrEe6SZ41pYdSNNw" name="jjHashset&lt;String>"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XgDpgBXrEe6SZ41pYdSNNw" name="jjHorarioFormato">
+    <ownedAttribute xmi:id="_hMXWwBXrEe6SZ41pYdSNNw" name="jjNombreAlumno" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hMy0kBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hM0CsBXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zTabsBXrEe6SZ41pYdSNNw" name="jjCodigo" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zTabsRXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zTabshXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_za_qYBXrEe6SZ41pYdSNNw" name="jjMateria" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_za_qYRXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_za_qYhXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zgHa8BXrEe6SZ41pYdSNNw" name="jjParalelo" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zgHa8RXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zgHa8hXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zkHKIBXrEe6SZ41pYdSNNw" name="jjAula" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zkHxMBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zkHxMRXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_znYgkBXrEe6SZ41pYdSNNw" name="jjCreditos" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_znZHoBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_znZHoRXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zqYKMBXrEe6SZ41pYdSNNw" name="jjObservacion" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zqYKMRXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zqYKMhXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ztTiYBXrEe6SZ41pYdSNNw" name="jjHoraLunes" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ztUJcBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ztUJcRXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zwYrkBXrEe6SZ41pYdSNNw" name="jjHoraMartes" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zwZSoBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zwZSoRXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z0DqoBXrEe6SZ41pYdSNNw" name="jjHoraMiercoles" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z0ERsBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z0ERsRXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z2pEkBXrEe6SZ41pYdSNNw" name="jjHoraJueves" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z2proBXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z2proRXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z6EzEBXrEe6SZ41pYdSNNw" name="jjHoraViernes" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z6EzERXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z6FaIBXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_z84PcBXrEe6SZ41pYdSNNw" name="jjHoraSabado" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z84PcRXrEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z842gBXrEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YV0XYBXsEe6SZ41pYdSNNw" name="App">
+    <ownedAttribute xmi:id="_Z6B8IBXsEe6SZ41pYdSNNw" name="jjHorarioRutaDirectorio" visibility="private" type="_Dm01QBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z6B8IRXsEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z6B8IhXsEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aAPR0BXsEe6SZ41pYdSNNw" name="sc" visibility="package" type="_DSu0kBXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aAPR0RXsEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aAPR0hXsEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9fQSsBXtEe6SZ41pYdSNNw" name="jjHorario" type="_Oirz8BXtEe6SZ41pYdSNNw" aggregation="shared" association="_9fBCIBXtEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9fQSsRXtEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9fQ5wBXtEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_aPICYBXsEe6SZ41pYdSNNw" name="main">
+      <ownedParameter xmi:id="_pmnw0BXsEe6SZ41pYdSNNw" name="agrs" type="_Dm01QBXrEe6SZ41pYdSNNw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0rsn0BXsEe6SZ41pYdSNNw" name="jjHorarioBase">
+    <ownedAttribute xmi:id="_3DEH0BXsEe6SZ41pYdSNNw" name="jjAsignaturas" type="_QQ2Q0BXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DEH0RXsEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DEH0hXsEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3H_rIBXsEe6SZ41pYdSNNw" name="jjAlumnos" type="_QQ2Q0BXrEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3H_rIRXsEe6SZ41pYdSNNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3IASMBXsEe6SZ41pYdSNNw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Oirz8BXtEe6SZ41pYdSNNw" name="jjHorario">
+    <generalization xmi:id="_v9JYkBXtEe6SZ41pYdSNNw" general="_0rsn0BXsEe6SZ41pYdSNNw"/>
+    <ownedAttribute xmi:id="_9fQ5wRXtEe6SZ41pYdSNNw" name="" type="_YV0XYBXsEe6SZ41pYdSNNw" association="_9fBCIBXtEe6SZ41pYdSNNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9fQ5whXtEe6SZ41pYdSNNw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9fRg0BXtEe6SZ41pYdSNNw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Q4ktQBXtEe6SZ41pYdSNNw" name="jjShowHorario"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Uzhf4BXtEe6SZ41pYdSNNw" name="jjGestiaArchivohorario">
+    <ownedOperation xmi:id="_aMAngBXtEe6SZ41pYdSNNw" name="jjReadHorarioAlumnos">
+      <ownedParameter xmi:id="_g3lHoBXtEe6SZ41pYdSNNw" name="jjDirectorioHorarios" type="_Dm01QBXrEe6SZ41pYdSNNw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aPag0BXtEe6SZ41pYdSNNw" name="jjShowAsignatura"/>
+    <ownedOperation xmi:id="_aSkigBXtEe6SZ41pYdSNNw" name="jjShowAlumnos"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_22TowBXtEe6SZ41pYdSNNw" client="_Oirz8BXtEe6SZ41pYdSNNw" supplier="_Uzhf4BXtEe6SZ41pYdSNNw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9fBCIBXtEe6SZ41pYdSNNw" memberEnd="_9fQSsBXtEe6SZ41pYdSNNw _9fQ5wRXtEe6SZ41pYdSNNw"/>
+</uml:Model>
